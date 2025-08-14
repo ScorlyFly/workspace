@@ -16,7 +16,7 @@ import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # Конфигурация
-TOKEN = 'toke'
+TOKEN = 'token'
 MEMIFY_URL = 'https://www.memify.ru/highfive/'
 
 # Инициализация бота
@@ -182,3 +182,4 @@ if __name__ == "__main__":
     print("=== Асинхронный Memify Bot запущен ===")
 
     asyncio.run(main())
+
